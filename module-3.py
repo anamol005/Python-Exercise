@@ -4,14 +4,14 @@
     # notifies the user of how many centimeters below the size limit the caught fish was.
     # A zander must be 42 centimeters or longer to meet the size limit.
 
-length = int(input("Enter the length of the zander in cm: "))
+length = int(input('Enter the length of the zander in cm: '))
 
 if length < 42:
     limit = 42 - length
-    print("Release the fish back into the lake!")
-    print("The fish was", limit, "cm below the size limit.")
+    print('Release the fish back into the lake!')
+    print('The fish was', limit, 'cm below the size limit.')
 else:
-    print("Good! The fish meets the size limit.")
+    print('Good! The fish meets the size limit.')
 
 
 # 2.
@@ -76,3 +76,4 @@ elif year % 400 == 0:
     print('leap year')
 else:
     print('not a leap year')
+
